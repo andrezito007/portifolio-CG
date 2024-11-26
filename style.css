@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte-principal: "Spicy Rice", serif;
+    --fonte-secundario: "Varela Round", sans-serif;
+    --vermelho-cereja: #780000ff;
+    --vermelho-fogo: rgb(190, 164, 19);
+    --mamao: rgb(255, 241, 86);
+    --azul-prússia: rgb(0, 0, 0);
+    --azul-bebe: rgb(226, 171, 31);
+    --branco: #ffffff;
+    
+}
+
+body{
+    font-family: var(--fonte-principal);
+    background-color: var(--mamao);
+}
+
+.img.thumbnail{
+    border: 2px solid var(--mamao)
+}
+
+h1,h3{
+    font-family: var(--fonte-principal);
+}
+
+.card{
+    background-color: var(--azul-bebe);
+    color: var(--branco);
+    
+}
+
+.footer-link{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: var(--vermelho-fogo);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte-principal: "Spicy Rice", serif;
+    --fonte-secundario: "Varela Round", sans-serif;
+    --vermelho-cereja: #780000ff;
+    --vermelho-fogo: rgb(190, 164, 19);
+    --mamao: rgb(255, 241, 86);
+    --azul-prússia: rgb(0, 0, 0);
+    --azul-bebe: rgb(226, 171, 31);
+    --branco: #ffffff;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--mamao);
+}
+
+.img-thumbnail {
+    border: 2px solid var(--mamao);
+}
+
+h1, h3 {
+    font-family: var(--fonte-principal);
+}
+
+.card {
+    background-color: var(--azul-bebe);
+    color: var(--branco);
+}
+
+.card-body {
+    font-family: var(--fonte-secundario);
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: var(--vermelho-fogo);
+}
+
+/* Seção Computação Gráfica */
+h2.mt-5 {
+    font-size: 2rem;
+    font-family: var(--fonte-secundario);
+    margin-top: 3rem;
+    color: var(--azul-prússia);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 0.25rem;
+}
+
+.card-body .card-title {
+    color: var(--branco);
+}
+
+.card-body .card-text {
+    font-size: 1rem;
+    color: var(--branco);
+}
+
+.card-body .btn {
+    background-color: var(--vermelho-fogo);
+    color: var(--branco);
+}
+
+.card-body .btn:hover {
+    background-color: var(--vermelho-cereja);
+}
